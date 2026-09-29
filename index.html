@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Milestone Projections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator-card">
+        <h2>📈 Placement Target Projections</h2>
+        <p>B.Tech Placement Track | Managed by A Usha Rani</p>
+
+        <div class="form-group">
+            <label>Current LeetCode Solved Count:</label>
+            <input type="number" id="current-solved" value="129">
+        </div>
+
+        <div class="form-group">
+            <label>Daily Coding Speed Target (Problems/Day):</label>
+            <input type="number" id="daily-target" value="2">
+        </div>
+
+        <div class="form-group">
+            <label>Days Left Until Semester Drives:</label>
+            <input type="number" id="days-remaining" value="60">
+        </div>
+
+        <button id="calc-btn">Calculate Final Milestone</button>
+
+        <div class="output-box" id="result-box" style="display: none;">
+            <h3>Target Project Metrics:</h3>
+            <p id="total-output"></p>
+            <div id="status-badge"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

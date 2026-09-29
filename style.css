@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calculator-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #e2e8f0;
+}
+
+h2 { 
+    color: #0f172a; 
+    margin-bottom: 5px; 
+    text-align: center; 
+}
+
+p { 
+    color: #64748b; 
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 0; 
+    margin-bottom: 25px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label { 
+    display: block; 
+    font-size: 14px; 
+    font-weight: 600; 
+    color: #334155; 
+    margin-bottom: 8px; 
+}
+
+input { 
+    width: 100%; 
+    padding: 10px 14px; 
+    border: 1px solid #cbd5e1; 
+    border-radius: 6px; 
+    font-size: 16px; 
+    box-sizing: border-box; 
+    outline: none; 
+}
+
+input:focus { 
+    border-color: #2563eb; 
+}
+
+#calc-btn {
+    width: 100%;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#calc-btn:hover { 
+    background-color: #1d4ed8; 
+}
+
+.output-box {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+    text-align: left;
+}
+
+.output-box h3 { 
+    margin: 0 0 10px 0; 
+    font-size: 16px; 
+    color: #1e293b; 
+}
+
+.output-box p { 
+    text-align: left; 
+    margin: 0; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #0f172a; 
+}
+
+#status-badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
